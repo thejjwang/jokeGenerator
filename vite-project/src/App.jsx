@@ -17,7 +17,7 @@ function App() {
         console.log(data)
         setJoke(data.joke)
       } catch (e) {
-        console.log("error", e)
+        console.log("error", e)   
       }
     }
     fetchData()
